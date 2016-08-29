@@ -13,4 +13,5 @@ Jukebox Features:
 *play song
 *pause song
 *skip song
-*turn up/down volume
+*the closer you are to the ultrasonic sensor, the louder the volume gets 
+*each time someone touches the touch sensor they will skip a song and we can use a 7 segment display to show which song on the song track is playing
