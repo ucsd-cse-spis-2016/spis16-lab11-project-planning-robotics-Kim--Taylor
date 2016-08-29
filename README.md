@@ -15,4 +15,5 @@ Jukebox Features:
 *pause song
 *skip song
 *the closer you are to the ultrasonic sensor, the louder the volume gets 
+*we're going to put tape on the table so our parents know where to put their hands and generate higher volumes. And we will create a threshold distance so the ultrasonic sensor isn't always reading the nearest object when there isn't a hand present.
 
