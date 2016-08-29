@@ -53,37 +53,37 @@ def loop():
 def touchSensor():
         state= 0
         while True:
-                print GPIO.input(BtnPin)
-                if state== 0 and GPIO.input(BtnPin)== False:
+                print GPIO.input(sensor)
+                if state== 0 and GPIO.input(sensor)== False:
                         state=1
-                elif state== 1 and GPIO.input(BtnPin)==True:
+                elif state== 1 and GPIO.input(sensor)==True:
                         state=2
-                        song 1
-                elif state == 2 and GPIO.input(BtnPin)== False:
+                        print 'song1'
+                elif state == 2 and GPIO.input(sensor)== False:
                         state= 3
-                elif state == 3 and GPIO.input(BtnPin)== True:
+                elif state == 3 and GPIO.input(sensor)== True:
                         state= 4
-                        song 2
-                elif state ==4 and GPIO.input(BtnPin)== False:
+                        print 'song2'
+                elif state ==4 and GPIO.input(sensor)== False:
                         state=5
-                elif state == 5 and GPIO.input(BtnPin)== True:
+                elif state == 5 and GPIO.input(sensor)== True:
                         state = 6
-                        song 3
-                elif state== 6 and GPIO.input(BtnPin)== False:
+                        print 'song3'
+                elif state== 6 and GPIO.input(sensor)== False:
                         state= 7
-                elif state== 7 and GPIO.input(BtnPin)== True:
+                elif state== 7 and GPIO.input(sensor)== True:
                         state= 8
-                        song 4
-                elif state == 8 and GPIO.input(BtnPin)== False:
+                        print 'song4'
+                elif state == 8 and GPIO.input(sensor)== False:
                         state= 9
-                elif state ==9 and GPIO.input(BtnPin)== True:
+                elif state ==9 and GPIO.input(sensor)== True:
                         state = 10
-                        song 5
-                elif state== 10 and GPIO.input(BtnPin)== False:
+                        print 'song5'
+                elif state== 10 and GPIO.input(sensor)== False:
                         state= 11
-                elif state== 11 and GPIO.input(BtnPin)== True:
+                elif state== 11 and GPIO.input(sensor)== True:
                         state =0
-                        song 6
+                        print 'song6'
 
 
                 
