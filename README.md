@@ -4,6 +4,16 @@ Kim L. Taylor B., Robotics, Mentor: Jenny
 
 For our project, we plan to create a jukebox that has various songs and when people touch the touch sensor multiple times they can skip through songs and if they wave their hand in front of the ultrasonic sensor then the volume of the song will change.
 
-Stage 1: Collect a Rasberry Pi, an ultrasonic sensor, and a touch sensor.
+Stage 1: Collect a Rasberry Pi 2, an ultrasonic sensor, and a touch sensor.
 Stage 2: Write code that allows volume to go up when someone's hand gets closer to the sensor and goes down when their hand is farther away.
 Stage 3: Write code that allows people to skip through songs on jukebox by touching the touch sensor multiple times. 
+
+
+Jukebox Features:
+*download 6 songs on a USB drive 
+*play song
+*pause song
+*skip song
+*the closer you are to the ultrasonic sensor, the louder the volume gets 
+*we're going to put tape on the table so our parents know where to put their hands and generate higher volumes. And we will create a threshold distance so the ultrasonic sensor isn't always reading the nearest object when there isn't a hand present.
+
