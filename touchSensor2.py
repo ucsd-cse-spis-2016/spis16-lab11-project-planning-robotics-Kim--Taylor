@@ -4,7 +4,8 @@ import time
 #set up the pins
 
 sensor = 12
-value = 0 
+value = 0
+tot_songs =12
 
 
 GPIO.setwarnings(False)
@@ -52,38 +53,16 @@ def loop():
 
 def touchSensor():
         state= 0
+        songnum= 0
         while True:
-                print GPIO.input(sensor)
+                #print GPIO.input(sensor)
                 if state== 0 and GPIO.input(sensor)== False:
                         state=1
                 elif state== 1 and GPIO.input(sensor)==True:
-                        state=2
-                        print 'song1'
-                elif state == 2 and GPIO.input(sensor)== False:
-                        state= 3
-                elif state == 3 and GPIO.input(sensor)== True:
-                        state= 4
-                        print 'song2'
-                elif state ==4 and GPIO.input(sensor)== False:
-                        state=5
-                elif state == 5 and GPIO.input(sensor)== True:
-                        state = 6
-                        print 'song3'
-                elif state== 6 and GPIO.input(sensor)== False:
-                        state= 7
-                elif state== 7 and GPIO.input(sensor)== True:
-                        state= 8
-                        print 'song4'
-                elif state == 8 and GPIO.input(sensor)== False:
-                        state= 9
-                elif state ==9 and GPIO.input(sensor)== True:
-                        state = 10
-                        print 'song5'
-                elif state== 10 and GPIO.input(sensor)== False:
-                        state= 11
-                elif state== 11 and GPIO.input(sensor)== True:
-                        state =0
-                        print 'song6'
+                        state=0
+                        songnum = (songnum + 1) % tot_songs
+                        print 'skipping to song ', songnum
+                
 
 
                 
