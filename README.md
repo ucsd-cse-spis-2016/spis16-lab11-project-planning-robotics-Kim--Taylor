@@ -7,3 +7,10 @@ For our project, we plan to create a jukebox that has various songs and when peo
 Stage 1: Collect a Rasberry Pi, an ultrasonic sensor, and a touch sensor.
 Stage 2: Write code that allows volume to go up when someone's hand gets closer to the sensor and goes down when their hand is farther away.
 Stage 3: Write code that allows people to skip through songs on jukebox by touching the touch sensor multiple times. 
+
+
+Jukebox Features:
+*play song
+*pause song
+*skip song
+*turn up/down volume
