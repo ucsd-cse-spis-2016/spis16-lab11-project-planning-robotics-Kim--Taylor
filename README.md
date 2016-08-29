@@ -10,6 +10,7 @@ Stage 3: Write code that allows people to skip through songs on jukebox by touch
 
 
 Jukebox Features:
+*download 6 songs on a USB drive 
 *play song
 *pause song
 *skip song
