@@ -5,7 +5,7 @@ import time
 
 sensor = 12
 value = 0
-tot_songs =12
+tot_songs =6
 
 
 GPIO.setwarnings(False)
@@ -23,7 +23,7 @@ def setup():
         for pin in pins.values():
                 GPIO.output(pin, GPIO.LOW)'''      
 
-def loop():
+'''def loop():
         state = 0
         while True:
                 # This code repeats forever
@@ -49,7 +49,7 @@ def loop():
                 if state == 6:
                     time.sleep(1)
                     state = 0
-                state += 1
+                state += 1'''
 
 def touchSensor():
         state= 0
