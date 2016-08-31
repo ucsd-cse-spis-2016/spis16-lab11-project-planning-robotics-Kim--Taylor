@@ -14,5 +14,5 @@ def loop():
             playsong()
             state = 1
         elif button== 0 and state== 1:
-            pause music
+            #pause music
             state = 0 

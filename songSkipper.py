@@ -9,7 +9,7 @@ import subprocess
 
 sensor = 12
 value = 0
-tot_songs =6
+tot_songs = 9
 
 
 GPIO.setwarnings(False)
